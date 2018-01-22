@@ -1,0 +1,38 @@
+Initialize engine version: 5.6.3p2 (b3d7a6428558)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   23.21.13.9065
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.156 seconds
+Platform assembly: C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\kajza\Documents\Unity Repository\Repos\MultiplayerFPS\Lvl1_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.977331 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3ec0 -> priority: 1 
+  Thread -> id: 1794 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerManager.SetupPlayer () [0x00000] in <filename unknown>:0 
+  at PlayerSetup.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
